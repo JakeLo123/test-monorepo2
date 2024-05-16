@@ -1,0 +1,16 @@
+{
+  "name": "test-monorepo2",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "workspaces": [
+    "packages/ws-core",
+    "packages/user-lib"
+  ],
+  "scripts": {
+    "build:core": "yarn workspace ws-core build",
+    "build:user-lib": "yarn workspace jakelo123-user-lib build"
+  },
+  "author": "",
+  "license": "ISC"
+}
