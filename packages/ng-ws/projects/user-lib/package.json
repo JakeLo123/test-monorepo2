@@ -1,12 +1,14 @@
 {
-  "name": "user-lib",
-  "version": "0.0.1",
+  "name": "jakelo123-user-lib",
+  "version": "0.0.2",
   "peerDependencies": {
     "@angular/common": "^17.3.0",
     "@angular/core": "^17.3.0"
   },
   "dependencies": {
-    "tslib": "^2.3.0",
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
     "jakelo123-core": "1.0.0"
   },
   "bundledDependencies": [
